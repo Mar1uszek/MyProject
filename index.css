@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    width: 1500px;
+}
+
+.korzina{
+    display: flex;
+    color: black;
+    list-style: none;
+    width: 75px;
+    justify-content: center;
+
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    display: flex;
+
+}
+
+.menu{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    align-items: baseline;
+
+
+}
+
+.logo {
+    width: 150px;
+    display: flex;
+
+}
+
+.flex{
+    display: flex;
+
+}
+
+.width{
+    max-width: 1920px;
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-around;
+
+}
