@@ -4,23 +4,12 @@
     justify-content: center;
     width: 1500px;
 }
-
-.korzina{
-    display: flex;
-    color: black;
-    list-style: none;
-    width: 75px;
-    justify-content: center;
-
-}
-
 .icon {
     width: 15px;
     height: 15px;
     display: flex;
 
 }
-
 .menu{
     color: black;
     text-decoration: none;
@@ -38,15 +27,60 @@
 
 }
 
-.flex{
+.footer{
+    height: 217px;
     display: flex;
 
 }
+.vk-icon{
+    width: 81px;
 
-.width{
+
+}
+.fb-icon{
+    width: 81px;
+    
+
+}
+.inst-icon{
+    width: 81px;
+    
+}
+.circle{
+    width: 81px;
+}
+.wrapper{
+    display: flex;
     max-width: 1920px;
     width: 100%;
     overflow: hidden;
     justify-content: space-around;
 
+}
+.networks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    
+
+
+}
+.inscription{
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+
+}
+
+.flex{
+    display: flex;
+}
+.block{
+    size: 30px;
+    align-items: flex-start;
 }
