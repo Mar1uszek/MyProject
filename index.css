@@ -1,8 +1,17 @@
 .container{
     display: flex;
     list-style: none;
-    justify-content: center;
-    width: 1500px;
+    justify-content: space-between;
+    width: 437px;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    
+
+}
+.padding{
+    padding: 0px 140px;
+    padding-top: 49px;
 }
 .icon {
     width: 15px;
@@ -14,77 +23,66 @@
     color: black;
     text-decoration: none;
     display: flex;
-    width: 100px;
-    justify-content: space-around;
     align-items: baseline;
+    width: 63px;
+    height: 30px;
+
+    
 
 
 }
 
 .logo {
-    width: 150px;
+    width: 160px;
+    height: 65px;
     display: flex;
 
 }
 
 .footer{
-    height: 217px;
     display: flex;
 
 }
-.vk-icon{
+.networks-icon{
+    display: flex;
     width: 81px;
+    height: 81px;
+    background: linear-gradient(0deg, #E1E1E1, #E1E1E1);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
 
 
 }
-.fb-icon{
-    width: 81px;
-    
 
-}
-.inst-icon{
-    width: 81px;
-    
-}
-.circle{
-    width: 81px;
-}
 .wrapper{
     display: flex;
-    max-width: 1920px;
     width: 100%;
-    overflow: hidden;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 .networks{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 300px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    width: 261px;
+    justify-content: space-between;
+
     
 
 
 }
 .inscription{
-    display: flex;
-    width: 1530px;
-    align-items: center;
-    justify-content: center;
-    flex-dir ection: column;
-    
-    
-
+    padding: 0px;
+    margin-left: 139px;
 }
 
 .flex{
     display: flex;
 }
-.block{
-    size: 30px;
-    align-items: flex-start;
-}
-
-.fat{
+.font{
     font-size: 2.4rem;
+    margin: 0px;
 }
