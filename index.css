@@ -14,21 +14,39 @@
     padding-top: 49px;
 }
 .icon {
-    width: 15px;
-    height: 15px;
+
+}  
+
+.basket{
+    color: black;
+    text-decoration: none;
     display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    width: 120px;
+
 
 }
+
+.basket-inscription {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.2rem;
+
+
+    
+
+}       
+    
+
 .menu{
     color: black;
     text-decoration: none;
     display: flex;
-    align-items: baseline;
-    width: 63px;
-    height: 30px;
-
-    
-
+    align-items: center;
+    font-size: 1.2rem;
 
 }
 
@@ -39,10 +57,7 @@
 
 }
 
-.footer{
-    display: flex;
 
-}
 .networks-icon{
     display: flex;
     width: 81px;
@@ -59,6 +74,9 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    height: 75px;
+    align-items: center;
+    
 
 }
 .networks{
@@ -81,8 +99,126 @@
 
 .flex{
     display: flex;
+    dis play: none;
 }
 .font{
     font-size: 2.4rem;
     margin: 0px;
 }
+
+.h2{
+    font-size: 3.0rem;
+    margin: 0px;
+}
+
+.background{
+    background: rgba(238, 238, 238, 1);
+    max-width: 1440px;
+}
+
+.rectangle{
+    display: flex;
+    width: 240px;
+    height: 50px;
+    background: rgba(251, 86, 90, 1);
+    border-radius: 3%;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+.p-rectangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+
+}
+.page-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 620px;
+}
+.page-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+}
+
+
+.margin{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 325px;
+}
+.margin-two{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.margin-three{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.phone{
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+
+
+}
+
+main{
+    display: flex;
+}
+
+.radio{
+    position: absolute;
+    width: 88px;
+    height: 18px;
+    left: 676px;
+    top: 431px;
+}
+.custom-radio {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  .custom-radio+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  
+  .custom-radio+label::after {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    background: white;
+  }
+  .custom-radio:not(:disabled):not(:checked)+label:hover::after {
+    border-color: gray;
+  }
+  /* стили для активной радиокнопки (при нажатии на неё) */
+  .custom-radio:not(:disabled):active+label::after {
+    background-color: rgba(193, 193, 193, 1);
+    border-color: gray;
+  }
+  /* стили для радиокнопки, находящейся в состоянии checked */
+  .custom-radio:checked+label::after {
+    border: 1px solid white;
+    background-image: radial-gradient(white 20%, rgba(193, 193, 193, 1) 30%, white 40%);
+  }
