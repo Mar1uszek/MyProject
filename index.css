@@ -106,6 +106,9 @@
     font-size: 2.4rem;
     margin: 0px;
 }
+.p_footer{
+  margin-top: 5px;
+}
 
 .h2{
     font-size: 3.8rem;
@@ -380,21 +383,15 @@ margin-top: 35px;
   }
   .form{
     display: block;
-    max-width: 960px;
-    max-height: 590px;
-    
-    
-
   }
   .legend{
     font-size: 3rem;
     
   }
   .fieldset{
-    max-width: 960px;
-    max-height: 590px;
+    height: 100px;
     border: none;
-    margin: 30px 60px;
+    margin: 0px 60px;
     display: flex;
     padding: 0;
     justify-content: space-between;
@@ -410,13 +407,13 @@ margin-top: 35px;
     margin-top: 60px;
     margin-left: 60px;
     margin-right: 60px;
+    margin-bottom: 30px;
     align-items: center;
 
   }
   .fieldset_text{
     display: flex;
     flex-direction: column;
-    height: 145px;
     border: none;
     margin: 30px 60px;
     padding: 0;
@@ -444,18 +441,21 @@ margin-top: 35px;
   .input_name{
     height: 50px;
     font-size: 1.2rem;
-    padding-left: 30px;
+    padding-left: 15px;
+    margin-top: 10px
   }
   .input_email{
     height: 50px;
     font-size: 1.2rem;
-    padding-left: 30px;
+    padding-left: 15px;
+    margin-top: 10px
   }
   .input_text{
     font-size: 1.2rem;
     height: 118px;
-    width: 810px;
-    padding-left: 30px;
+    padding-left: 15px;
+    resize: none;
+    margin-top: 10px
   }
   .buttom_form{
     display: flex;
@@ -478,6 +478,7 @@ margin-top: 35px;
   }
   .cross{
     display: flex;
+    align-items: center;
   }
   .cross::after, .cross::before{
     background-color: red;
